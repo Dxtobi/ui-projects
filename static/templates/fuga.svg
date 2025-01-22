@@ -1,0 +1,56 @@
+
+<svg
+   width="134.10344mm"
+   height="207.81406mm"
+   viewBox="0 0 134.10344 207.81406"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-26.256646,-21.653959)">
+    <rect
+       style="fill:#f2f2f2;fill-rule:evenodd;stroke:none;stroke-width:0.368207"
+       id="rect5"
+       width="134.10344"
+       height="207.81404"
+       x="26.256645"
+       y="21.653959"
+       ry="9.1299047" />
+    <rect
+       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       id="rect1"
+       width="87.271782"
+       height="164.88501"
+       x="49.672474"
+       y="43.118469"
+       ry="7.2439022" />
+    <path
+       d="M 136.94426,79.682992 H 101.42908 A 10.362799,10.362799 45 0 1 91.066276,69.320193 10.38563,10.38563 44.716577 0 0 80.629399,58.986064 H 57.487597 a 17.12882,17.12882 135 0 0 -17.12882,17.12882 v 92.909146 a 7.5889582,7.5889582 45 0 0 7.588958,7.58896 6.1958029,6.1958029 126.19262 0 0 5.174087,-7.07141 l 0,-8.41652 a 6.9334368,6.9334368 135 0 1 6.933437,-6.93344 h 4.967157 a 5.6916144,5.6916144 45 0 1 5.691614,5.69161 v 9.5548 a 7.1749553,7.1749553 45 0 0 7.174955,7.17496 h 58.538035 a 9.4860394,9.4860394 135 0 0 9.48604,-9.48604 v -3.96233 c 0,-4.95565 -4.01268,-8.76922 -8.96626,-8.62813 -6.31999,0.18002 -9.36434,0.0871 -11.91023,-0.0474 -4.66,-0.24618 -8.4442,-4.08117 -8.4442,-8.74864 v -1.55239 a 7.9338111,7.9338111 135 0 1 7.93381,-7.93381 h 12.97018 a 8.4167047,8.4167047 135 0 0 8.4167,-8.4167 l 0,-39.185724 a 8.9688042,8.9688042 45 0 0 -8.9688,-8.968804 z"
+       style="fill:#ff7f2a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       id="path5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="97.809822"
+       y="94.224243"
+       id="text5"><tspan
+         id="tspan5"
+         style="stroke-width:0.264583"
+         x="97.809822"
+         y="94.224243">New Hit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="113.31786"
+       y="167.4678"
+       id="text6"><tspan
+         id="tspan6"
+         style="stroke-width:0.264583"
+         x="113.31786"
+         y="167.4678">Fuga</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="77.366516mm"
+   height="55.347763mm"
+   viewBox="0 0 77.366516 55.347763"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g4"
+         id="use5" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g7"
+         id="use8" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-23.355694,-104.2369)">
+    <g
+       id="g5"
+       clip-path="url(#clipPath5)">
+      <g
+         inkscape:label="Clip"
+         id="g4">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:75.399px;line-height:1.25;font-family:Alba;-inkscape-font-specification:'Alba, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.88497"
+           x="56.363865"
+           y="160.32515"
+           id="text1-6"
+           transform="scale(1.0177631,0.98254693)"><tspan
+             sodipodi:role="line"
+             id="tspan2"
+             x="56.363865"
+             y="160.32515"
+             style="stroke-width:1.88497">b</tspan></text>
+      </g>
+      <ellipse
+         style="fill:#ffcc00;stroke-width:3.81638;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="path2-4"
+         cx="86.433914"
+         cy="127.26476"
+         rx="12.092173"
+         ry="10.909839" />
+      <ellipse
+         style="fill:#d4aa00;stroke-width:1.73055;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="path7"
+         cx="85.526588"
+         cy="125.14761"
+         rx="9.7249632"
+         ry="10.141746" />
+      <ellipse
+         style="fill:#ffdd55;stroke-width:3.05923;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="path2"
+         cx="84.275955"
+         cy="124.40316"
+         rx="9.0357561"
+         ry="9.3816299" />
+    </g>
+    <g
+       id="g8"
+       clip-path="url(#clipPath8)">
+      <g
+         inkscape:label="Clip"
+         id="g7"
+         style="fill:#333333">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:78.8642px;line-height:1.25;font-family:Alba;-inkscape-font-specification:'Alba, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.97161"
+           x="18.698313"
+           y="161.64653"
+           id="text3"
+           transform="scale(1.0173679,0.98292859)"
+           inkscape:export-filename="logofb.svg"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"><tspan
+             sodipodi:role="line"
+             id="tspan3"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:78.8642px;font-family:Alba;-inkscape-font-specification:'Alba, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;stroke-width:1.97161"
+             x="18.698313"
+             y="161.64653">f</tspan></text>
+      </g>
+      <ellipse
+         style="fill:#ffdd55;stroke-width:3.253;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="path5"
+         cx="19.112782"
+         cy="106.59404"
+         rx="25.701689"
+         ry="28.619179" />
+      <ellipse
+         style="fill:#ffcc00;stroke-width:3.253;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="path6"
+         cx="8.2684479"
+         cy="126.14668"
+         rx="27.229898"
+         ry="27.78561" />
+    </g>
+  </g>
+</svg>
