@@ -7,14 +7,21 @@
         move_on_scroll('#banner_1', 'right');
         move_on_scroll('#banner_2');
     });
+
+
+    const project_count = [
+        {num:'+15', disc:'Evens'},
+        {num:'+135', disc:'Music Videos'},
+        {num:'+290', disc:'Evens'},
+    ]
 </script>
 
 <section class="main overflow-x-hidden">
     <nav
-        class="flex justify-between gap-2 md:w-full p-4 items-center w-full m-auto left-0 z-[10000] absolute top-0 backdrop-blur-3xl"
+        class="flex justify-between gap-2 md:w-full p-4 items-center w-full m-auto left-0 z-[10000] absolute top-0 backdrop-blur-3xl bg-purple-800"
     >
         <a href="#back_to_top" class="  text-gray-100 font-bold text-3xl">
-            Hype<span class="text-gray-250 font-thin">Media</span>
+            DTD<span class="text-gray-250 font-thin">Media</span>
         </a>
         <div class=" gap-4 hidden md:flex">
             <a href="#service" class=" text-gray-200"> Services </a>
@@ -41,7 +48,7 @@
                 <h2
                     class=" overflow-visible transition font-bold text-[4rem] md:text-[9rem] lg:text-[10rem] text-center text-balance line_hight hover:-rotate-6"
                 >
-                    <span class="">CREATIVE</span>
+                    <span class="">THE DEE</span>
                 </h2>
             </div>
             <div class="flex flex-col md:flex-row items-center justify-start gap-3 w-full">
@@ -53,7 +60,7 @@
                 <h2
                     class="font-bold text-[5rem] md:text-[9rem] lg:text-[10rem] text-center text-balance line_hight hover:-rotate-6 transition"
                 >
-                    AGENCY
+                    CREATIVE
                 </h2>
                 <div class="flex overflow-visible rounded-full p-2 w-fit h-fit">
                     <img
@@ -72,11 +79,26 @@
                 </div>
             </div>
         </div>
-        <div class="flex gap-4 w-full md:w-[80%] mx-auto flex-col md:flex-row overflow-visible">
+        <div class="flex gap-4 w-full md:w-[100%] mx-auto flex-col justify-between md:flex-row overflow-visible ">
             <div
                 class="w-full md:w-1/2 rounded-2xl bg-gray-800 flex justify-center items-center h-[200px] shadow-lg tilt"
             >
                 <h2 class="text-5xl -rotate-12">CREATIVE</h2>
+            </div>
+              <div
+                class="w-full md:w-1/2 rounded-2xl bg-gray-800 flex justify-center items-center h-[200px] shadow-lg tilt"
+            >
+                <h2 class="text-5xl -rotate-12">CREATIVE</h2>
+            </div>
+              <div
+                class="w-full md:w-1/2 rounded-2xl bg-gray-800 flex justify-center items-center h-[200px] shadow-lg tilt"
+            >
+                <h2 class="text-5xl -rotate-12">CREATIVE</h2>
+            </div>
+            <div
+                class="w-full md:w-1/2 rounded-2xl bg-purple-800 flex justify-center items-center shadow-lg h-[200px] tilt"
+            >
+                <h2 class="text-5xl rotate-12">AGENTS</h2>
             </div>
             <div
                 class="w-full md:w-1/2 rounded-2xl bg-purple-800 flex justify-center items-center shadow-lg h-[200px] tilt"
@@ -109,7 +131,6 @@
                 {/each}
             </div>
         </div>
-
         <section id="about_us" class="p-4 md:px-[10rem]">
             <div
                 class="w-full flex md:gap-3 md:justify-between md:items-center items-start flex-col md:flex-row gap-2 line_hight"
@@ -117,8 +138,8 @@
                 <h1 class="font-bold text-[5rem]">ABOUT US</h1>
                 <div class=" h-1 w-10 bg-gray-500"></div>
                 <p class=" text-wrap md:w-[30%] relative z-10">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quis consequuntur perspiciatis, cumque
-                    necessitatibus nemo at laudantium magnam? Molestias iste assumenda explicabo ut.
+                    At DDT-MEDIA, we transform moments into unforgettable stories. Our expert videography team crafts cinematic experiences that resonate, whether it’s your dream wedding, a bold brand campaign, or a personal milestone.  
+
                 </p>
             </div>
             <div class="w-full flex md:gap-3 md:justify-between items-start flex-col md:flex-row gap-2 line_hight mt-4">
@@ -128,10 +149,10 @@
                     >
                 </div>
                 <div class="md:w-[40%] w-full">
-                    {#each [15, 350, 500, 20] as num}
+                    {#each project_count as num}
                         <div class="flex justify-start gap-2 rounded-md bg-gray-300 w-full mb-2 py-2 items-center px-2">
-                            <h2 class="font-bold text-5xl">{num}</h2>
-                            <p>Lorem, ipsum dolor.</p>
+                            <h2 class="font-bold text-5xl">{num.num}</h2>
+                            <p>{num.disc}</p>
                         </div>
                     {/each}
                 </div>
@@ -153,7 +174,7 @@
         </div>
 
         <div class="w-full flex flex-col gap-4 items-center">
-            {#each ['branding & identity', 'web development', 'ui/ux design', 'consulting & training'] as tmp}
+            {#each [' Vidiography', ' Photography', ' Motion Graphics', ' Cinematography'] as tmp}
                 <a
                     href="/"
                     class="rounded-full capitalize flex justify-between items-center py-4 px-6 md:p-6 font-bold md:text-5xl text-2xl hover:bg-white hover:text-purple-800 w-full bg-[#ffffff51]"
@@ -178,19 +199,19 @@
                         href="#about-us"
                         class="font-thine text-2xl py-2 px-6 rounded-full bg-left-bottom bg-gradient-to-tl to-purple-500 from-purple-900 text-white flex items-center gap-3 text-nowrap"
                     >
-                        <span> UI/UX Designs</span>
+                        <span> Music Videos</span>
                     </a>
                     <a
                         href="#about-us"
                         class="font-thine text-2xl py-2 px-6 rounded-full border flex items-center gap-3 text-nowrap"
                     >
-                        <span>Development</span>
+                        <span>Events</span>
                     </a>
                     <a
                         href="#about-us"
                         class="font-thine text-2xl py-2 px-6 rounded-full border flex items-center gap-3 text-nowrap"
                     >
-                        <span>Branding</span>
+                        <span>Branding / Ads</span>
                     </a>
                 </div>
             </div>
@@ -256,71 +277,7 @@
             {/each}
         </div>
     </section>
-    <!-- <section class="min-h-[100vh] justify-between p-4 md:p-10 flex flex-col md:flex-row items-center mt-10 py-20">
-        <div class="">
-            <h1 class="text-5xl font-bold">Anim<span class=" rotate-[50deg] text-purple-600">&edot;</span></h1>
-            <p class="text-2xl">Welcome to the word of your Best anime characters</p>
-            <div class=" flex gap-1 text-2xl">
-                <div class="text-purple-600 font-bold">Vote</div>
-                <div>Talk</div>
-                Your best anime all in one place.
-            </div>
-            <button class=" bg-purple-600 text-white font-bold rounded shadow-lg hover:shadow-none p-4 mt-4">
-                Join Now
-            </button>
-        </div>
-        <div class="h-[50vh] flex gap-3 flex-col p-4">
-            <div class="flex gap-2 rotate-3d justify-center">
-                {#each [1, 4] as box}
-                    <div class="rounded w-[200px] h-[100px] bg-purple-600"></div>
-                {/each}
-            </div>
-            <div class="flex gap-2 rotate-3d justify-center">
-                {#each [1, 2, 4] as box}
-                    <div class="rounded w-[200px] h-[100px] bg-purple-600"></div>
-                {/each}
-            </div>
-            <div class="flex gap-2 rotate-3d justify-center">
-                {#each [1, 2, 3, 4] as box}
-                    <div class="rounded w-[200px] h-[100px] bg-purple-600"></div>
-                {/each}
-            </div>
-        </div>
-    </section>
 
-    <section class="min-h-screen bg-purple-600 text-white flex justify-center items-center">
-        <div class="flex justify-between flex-col md:flex-row gap-4">
-            <div class="w-full md:w-1/2 p-2 flex flex-col gap-4">
-                <div
-                    class="md:w-[90%] w-full py-2 px-4 m-auto bg-white text-[#1c1c1c] uppercase rounded-md text-center font-bold text-2xl"
-                >
-                    fun ecosystem
-                </div>
-                <div
-                    class="md:w-[90%] w-full py-2 px-4 m-auto bg-white text-[#1c1c1c] uppercase rounded-md text-center font-bold text-2xl"
-                >
-                    meet new friends
-                </div>
-                <div
-                    class="md:w-[90%] w-full py-2 px-4 m-auto bg-white text-[#1c1c1c] uppercase rounded-md text-center font-bold text-2xl"
-                >
-                    easy to navigate
-                </div>
-            </div>
-            <div class="w-full md:w-1/2 p-2">
-                <h2 class="font-bold text-5xl">About This <span>W&eacute;bsite</span></h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi itaque consectetur dolorem, modi aut
-                    ducimus quis quas ut, corrupti laborum distinctio totam labore sunt! Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Animi itaque consectetur dolorem, modi aut ducimus quis quas ut,
-                    corrupti laborum distinctio totam labore sunt!
-                </p>
-                <button class=" text-purple-600 bg-white font-bold rounded shadow-lg hover:shadow-none p-4 mt-4">
-                    Join Now
-                </button>
-            </div>
-        </div>
-    </section> -->
 
     <!-- FOOTER -->
     <section class="p-4 md:px-[10rem] py-32 bg-gradient-to-br to-purple-400 from-purple-900 text-white relative">
@@ -345,7 +302,7 @@
             class="flex justify-between md:flex-row flex-col gap-2 md:w-full p-10 w-10/12 m-auto left-0 z-[10000] absolute bottom-0"
         >
             <a href="#back_to_top" class="  text-gray-100 font-bold text-3xl">
-                Hype<span class="text-gray-250 font-thin">Media</span>
+                Dammy <span class="text-gray-250 font-thin">Dee Media</span>
             </a>
             <div class="flex gap-4">
                 <a href="#service" class=" text-gray-200"> Services </a>
